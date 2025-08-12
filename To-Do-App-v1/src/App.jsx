@@ -1,17 +1,16 @@
+import AddToDO from "./components/AddToDo";
+import AppName from "./components/AppName";
+import ToDoItem1 from "./components/ToDoItem1";
+import ToDoItem2 from "./components/ToDoItem2";
+import './App.css'
+
 function App() {
-  return <center class="todo-container">
-    <h1>TODO App</h1>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">col</div>
-        <div class="col">col</div>
-        <div class="col">col</div>
-        <div class="col">col</div>
-      </div>
-      <div class="row">
-        <div class="col-8">col-8</div>
-        <div class="col-4">col-4</div>
-      </div>
+  return <center className="todo-container">
+    <AppName />
+    <AddToDO />
+    <div className="items-container">
+      <ToDoItem1 />
+      <ToDoItem2 />
     </div>
   </center>
 }
