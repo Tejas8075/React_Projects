@@ -1,0 +1,10 @@
+.textInput {
+  padding: 1em 1em 1em 1em;
+  font-size: 1.4rem;
+  border-radius: 3px;
+}
+
+.textBtn {
+  padding: 1.3em 2em 1.3em 2em !important;
+  font-size: 1.2rem !important;
+}
