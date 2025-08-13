@@ -1,9 +1,9 @@
 import styles from "./ButtonsContainer.module.css"
 
-function ButtonsContainer({ buttonInfo }) {
+function ButtonsContainer({ buttonInfo, onButtonClick }) {
   return <div className={styles.buttonsContainer}>
     {buttonInfo.map((items) => (
-      <button className={styles.button}>{items}</button>
+      <button className={styles.button} onClick={() => {onButtonClick(items)}}>{items}</button>
     ))}
   </div>
 }
