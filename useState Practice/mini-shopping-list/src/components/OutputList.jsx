@@ -1,18 +1,13 @@
 import "../App.css"
 
-const OutputList = () => {
+const OutputList = ({ value, handleDeleteBtn }) => {
 
   return <>
     <div className="container">
       <div className="list">
-        <span>Get Milk</span>
-        <span>23/05/2025</span>
-        <button>Delete</button>
-      </div>
-      <div className="list">
-        <span>Get Milk</span>
-        <span>23/05/2025</span>
-        <button>Delete</button>
+        <span>{value.text}</span>
+        <span>{value.date}</span>
+        <button onClick={handleDeleteBtn}>Delete</button>
       </div>
     </div>
   </>
