@@ -1,0 +1,32 @@
+h1 {
+  font-size: 3rem;
+  margin-left: 2.2em;
+}
+
+span {
+  /* border: 2px solid red; */
+  font-size: 1.5rem;
+  padding: 1.2em;
+}
+
+.container {
+  margin-top: 1em;
+}
+
+.list {
+  margin-top: 1em;
+}
+
+.inputContainer {
+  margin-top: 2em;
+}
+
+input {
+  font-size: 1.5rem;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+button {
+  font-size: 1.5rem;
+}
