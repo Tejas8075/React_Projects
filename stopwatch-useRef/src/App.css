@@ -1,0 +1,17 @@
+.time-cont {
+  display: flex;
+}
+
+p{
+  font-size: 3rem;
+  margin-left: 50px;
+}
+
+.btns button {
+  margin: 0px 20px;
+}
+
+button {
+  font-size: 1.3rem;
+  padding: 1em;
+}
